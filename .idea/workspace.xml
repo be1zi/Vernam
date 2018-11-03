@@ -13,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="be1zi &lt;konrad.belzowski@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -31,7 +36,9 @@
     <option name="width" value="960" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -178,12 +185,20 @@
       <updated>1541263861298</updated>
       <workItem from="1541263864059" duration="77000" />
       <workItem from="1541264140036" duration="22000" />
-      <workItem from="1541264182864" duration="24000" />
+      <workItem from="1541264182864" duration="69000" />
     </task>
+    <task id="LOCAL-00001" summary="add missing files">
+      <created>1541264233869</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541264233870</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123000" />
+    <option name="totallyTimeSpent" value="168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -226,6 +241,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="add missing files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add missing files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
