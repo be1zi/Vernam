@@ -14,7 +14,7 @@ public class Vernam {
         byte[] encryptedArray = vernam.encryptBytes();
         System.out.println("Encrypted Message: \n" + vernam.createTextFromBitsArray(encryptedArray) + "\n");
 
-        byte[] decryptedArray = vernam.decryptMessage(encryptedArray);
+        byte[] decryptedArray = vernam.decryptBytes(encryptedArray);
         System.out.println("Decrypted Message: \n" + vernam.createTextFromBitsArray(decryptedArray));
     }
 
@@ -143,7 +143,7 @@ public class Vernam {
         return xorOperations(messagesBits, keyBits);
     }
 
-    private byte[] decryptMessage (byte[] encryptedBytes) {
+    private byte[] decryptBytes (byte[] encryptedBytes) {
         return xorOperations(encryptedBytes, keyBits);
     }
 
