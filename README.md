@@ -3,7 +3,7 @@
 
 ---
 
-##Usage
+## Usage
 
 To init vernam algorithm create Vernam object. As a parameter you can set path to **.txt** file. As default this file is added in project directory.
 

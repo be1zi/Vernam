@@ -4,7 +4,6 @@
     <list default="true" id="80ee8f90-9176-4cb4-b507-6110846d9ce8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Vernam.java" afterPath="$PROJECT_DIR$/src/Vernam.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Vernam.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Vernam.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vernam.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -36,12 +35,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <first_editor relative-caret-position="85">
+                <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -259,7 +258,7 @@
       <updated>1541263861298</updated>
       <workItem from="1541263864059" duration="77000" />
       <workItem from="1541264140036" duration="22000" />
-      <workItem from="1541264182864" duration="1778000" />
+      <workItem from="1541264182864" duration="1931000" />
     </task>
     <task id="LOCAL-00001" summary="add missing files">
       <created>1541264233869</created>
@@ -282,11 +281,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541264464731</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added readme">
+      <created>1541265973744</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541265973744</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1877000" />
+    <option name="totallyTimeSpent" value="2030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -333,7 +339,8 @@
     </ignored-roots>
     <MESSAGE value="add missing files" />
     <MESSAGE value="algorithm for encryption and decryption" />
-    <option name="LAST_COMMIT_MESSAGE" value="algorithm for encryption and decryption" />
+    <MESSAGE value="Added readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -345,17 +352,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="433" lean-forward="false" selection-start-line="0" selection-start-column="433" selection-end-line="0" selection-end-column="433" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -374,6 +370,17 @@
             <element signature="e#4603#4604#0" expanded="true" />
             <element signature="e#4673#4674#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
