@@ -15,7 +15,7 @@ public class Vernam {
         System.out.println("Encrypted Message: \n" + vernam.createTextFromBitsArray(encryptedArray) + "\n");
 
         byte[] decryptedArray = vernam.decryptBytes(encryptedArray);
-        System.out.println("Decrypted Message: \n" + vernam.createTextFromBitsArray(decryptedArray));
+        System.out.println("Decrypted Message: \n" + vernam.createTextFromBitsArray(decryptedArray) + "\n");
     }
 
     private String fileName;
@@ -167,7 +167,7 @@ public class Vernam {
 
         for (byte bit : bitsArray) {
             if(iterator != 0 && iterator % 8 == 0) {
-                result[iterator/8] = (byte)Integer.parseInt(byteString, 2);
+                result[iterator/8 - 1] = (byte)Integer.parseInt(byteString, 2);
                 byteString = "";
             }
 
@@ -175,6 +175,8 @@ public class Vernam {
 
             iterator++;
         }
+
+        result[iterator/8 - 1] = (byte)Integer.parseInt(byteString, 2);
 
         return result;
     }
